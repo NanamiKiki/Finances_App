@@ -109,7 +109,7 @@ streamlit run app.py
   <img src="Screenshot1.png" alt="Screenshot 1" width="700" />
 </p>
 <p align="center">
-  <a href="#img4">⬅️ Înapoi</a> | <a href="#img2">Următoarea ➡️</a>
+  
 </p>
 
 
@@ -118,7 +118,7 @@ streamlit run app.py
   <img src="Screenshot2.png" alt="Screenshot 2" width="700" />
 </p>
 <p align="center">
-  <a href="#img1">⬅️ Înapoi</a> | <a href="#img3">Următoarea ➡️</a>
+  
 </p>
 
 
@@ -127,7 +127,7 @@ streamlit run app.py
   <img src="Screenshot3.png" alt="Screenshot 3" width="700" />
 </p>
 <p align="center">
-  <a href="#img2">⬅️ Înapoi</a> | <a href="#img4">Următoarea ➡️</a>
+ 
 </p>
 
 
@@ -136,7 +136,7 @@ streamlit run app.py
   <img src="Screenshot4.png" alt="Screenshot 4" width="700" />
 </p>
 <p align="center">
-  <a href="#img3">⬅️ Înapoi</a> | <a href="#img1">Înapoi la început 🔁</a>
+  
 </p>
 
 </div>

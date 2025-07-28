@@ -26,7 +26,6 @@
 <pre style="background: #5c3db1; padding: 1rem; border-radius: 8px; overflow-x: auto;">
 <code style="color: #f0e9ff;">
 
-cd personal-finance-app
 pip install streamlit pandas plotly
 streamlit run app.py
 </code>

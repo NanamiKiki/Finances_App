@@ -99,7 +99,7 @@ streamlit run app.py
 
 
 <h2 style="color: #d4b9fc;"> Inspiration</h2>
-<p>This project is inspired by <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" target="_blank" style="color:#f0e9ff; text-decoration: underline;">Tech With Tim's tutorial</a> and the <a href="https://github.com/techwithtim/AutomateFinancesWithPython" target="_blank" style="color:#f0e9ff; text-decoration: underline;">AutomateFinancesWithPython</a> repository, adapted with new features and Romanian localization.</p>
+<p>This project is inspired by <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" target="_blank" style="color:#f0e9ff; text-decoration: underline;">Tech With Tim's tutorial</a> and the <a href="https://github.com/techwithtim/AutomateFinancesWithPython" target="_blank" style="color:#f0e9ff; text-decoration: underline;">AutomateFinancesWithPython</a> repository, adapted with new features.</p>
 
 ##  Demo
 
@@ -241,4 +241,4 @@ streamlit run app.py
 ---
 
 <h2 style="color:#673ab7;"> Inspirație</h2>
-<p>Proiectul este inspirat de tutorialul <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" style="color:#9575cd;">Tech With Tim</a> și repository-ul <a href="https://github.com/techwithtim/AutomateFinancesWithPython/tree/main" style="color:#9575cd;">AutomateFinancesWithPython</a>, adaptat cu funcționalități noi și localizare în limba română.</p>
+<p>Proiectul este inspirat de tutorialul <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" style="color:#9575cd;">Tech With Tim</a> și repository-ul <a href="https://github.com/techwithtim/AutomateFinancesWithPython/tree/main" style="color:#9575cd;">AutomateFinancesWithPython</a>, adaptat cu funcționalități noi.</p>

@@ -20,6 +20,56 @@
   <li>Categories saved locally in JSON for persistence</li>
 </ul>
 
+## 📸 Galerie de capturi de ecran
+
+---
+
+### 🖼️ Imaginea 1
+
+<a name="img1"></a>
+<p align="center">
+  <img src="Screenshot1.png" alt="Screenshot 1" width="700" />
+</p>
+<p align="center">
+  <a href="#img4">⬅️ Înapoi</a> | <a href="#img2">Următoarea ➡️</a>
+</p>
+
+---
+
+### 🖼️ Imaginea 2
+
+<a name="img2"></a>
+<p align="center">
+  <img src="Screenshot2.png" alt="Screenshot 2" width="700" />
+</p>
+<p align="center">
+  <a href="#img1">⬅️ Înapoi</a> | <a href="#img3">Următoarea ➡️</a>
+</p>
+
+---
+
+### 🖼️ Imaginea 3
+
+<a name="img3"></a>
+<p align="center">
+  <img src="Screenshot3.png" alt="Screenshot 3" width="700" />
+</p>
+<p align="center">
+  <a href="#img2">⬅️ Înapoi</a> | <a href="#img4">Următoarea ➡️</a>
+</p>
+
+---
+
+### 🖼️ Imaginea 4
+
+<a name="img4"></a>
+<p align="center">
+  <img src="Screenshot4.png" alt="Screenshot 4" width="700" />
+</p>
+<p align="center">
+  <a href="#img3">⬅️ Înapoi</a> | <a href="#img1">Înapoi la început 🔁</a>
+</p>
+
 
 <h2 style="color: #d4b9fc;"> Getting Started</h2>
 <pre style="background: #5c3db1; padding: 1rem; border-radius: 8px; overflow-x: auto;">

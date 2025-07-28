@@ -1,206 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Personal Finance App - README</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+<div style="background: linear-gradient(135deg, #7b2ff7, #f107a3); padding: 2rem; border-radius: 10px; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
 
-  body {
-    background-color: #4b367c; /* purple background */
-    color: #e0d9f2; /* light lavender text */
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 2rem;
-  }
+<h1 style="text-align:center; font-weight: 700; margin-bottom: 0.2rem;">Personal Finance App with Streamlit</h1>
 
-  h1, h2, h3 {
-    color: #d6bcfa; /* lighter lavender */
-  }
+<p style="text-align:center; font-style: italic; margin-top: 0; margin-bottom: 2rem;">
+  Manage and visualize your personal finances easily with Python, Streamlit, and Plotly.
+</p>
 
-  a {
-    color: #c9a7ff;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
+---
 
-  code {
-    background-color: #6f57a1;
-    color: #f0ebff;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-family: monospace;
-  }
+<h2 style="color: #e0c3fc;">✨ Features</h2>
+<ul>
+  <li>Upload CSV files with Debit/Credit bank transactions</li>
+  <li>Automatic data cleaning and preprocessing</li>
+  <li>Auto-categorization of expenses based on keywords</li>
+  <li>Add and edit categories and keywords in-app</li>
+  <li>Interactive monthly spending and income charts with Plotly</li>
+  <li>Pie chart showing expenses breakdown by category</li>
+  <li>Custom styled UI with Google Fonts and purple-themed CSS</li>
+  <li>Categories saved locally in JSON for persistence</li>
+</ul>
 
-  pre {
-    background-color: #6f57a1;
-    color: #f0ebff;
-    padding: 1rem;
-    border-radius: 8px;
-    overflow-x: auto;
-  }
+---
 
-  hr {
-    border: none;
-    border-top: 1px solid #a28fed;
-    margin: 2rem 0;
-  }
+<h2 style="color: #d4b9fc;">🚀 Getting Started</h2>
+<pre style="background: #5c3db1; padding: 1rem; border-radius: 8px; overflow-x: auto;">
+<code style="color: #f0e9ff;">
+git clone https://github.com/yourusername/personal-finance-app.git
+cd personal-finance-app
+pip install streamlit pandas plotly
+streamlit run app.py
+</code>
+</pre>
 
-  ul {
-    padding-left: 1.5rem;
-  }
+---
 
-  .container {
-    max-width: 900px;
-    margin: auto;
-  }
+<h2 style="color: #d4b9fc;">📂 CSV File Format</h2>
+<p>Expected columns:</p>
 
-  .highlight {
-    color: #b794f4;
-    font-weight: 600;
-  }
+<table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+  <thead>
+    <tr style="background-color: #6c4fd8; color: white;">
+      <th style="padding: 8px; border: 1px solid #5c3db1;">Date</th>
+      <th style="padding: 8px; border: 1px solid #5c3db1;">Details</th>
+      <th style="padding: 8px; border: 1px solid #5c3db1;">Amount (RON)</th>
+      <th style="padding: 8px; border: 1px solid #5c3db1;">Transaction Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #8c68f9; color: white;">
+      <td style="padding: 8px; border: 1px solid #5c3db1;">01/07/2025</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">Grocery Store</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">150.00</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">Debit</td>
+    </tr>
+    <tr style="background-color: #9a7efc; color: white;">
+      <td style="padding: 8px; border: 1px solid #5c3db1;">03/07/2025</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">Salary</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">5000.00</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">Credit</td>
+    </tr>
+  </tbody>
+</table>
 
-  .metric {
-    font-weight: 700;
-    color: #d6bcfa;
-  }
+---
 
-</style>
-</head>
-<body>
-  <div class="container">
-    <h1>Personal Finance App in Python with Streamlit</h1>
-    <p>
-      This is a web application for managing and analyzing personal finances, built with
-      <span class="highlight">Streamlit</span>, <span class="highlight">Pandas</span>, and <span class="highlight">Plotly</span>.
-      The app allows you to upload a CSV file with bank transactions, automatically or manually categorize expenses,
-      visualize monthly spending and income trends, and display categorized amounts in an interactive and intuitive way.
-    </p>
+<h2 style="color: #d4b9fc;">⚙️ Usage</h2>
+<p>Upload your CSV file with transactions. The app will automatically clean and categorize your data. You can also add or edit categories and keywords to better fit your needs. Visualize your financial trends and get detailed breakdowns.</p>
 
-    <hr />
+---
 
-    <h2>Features</h2>
-    <ul>
-      <li>Upload CSV file with transactions (<code>Debit</code>/<code>Credit</code>).</li>
-      <li>Automatic data cleaning and preprocessing (date format, amounts, etc.).</li>
-      <li>Auto-categorization of transactions based on keywords in the details.</li>
-      <li>Ability to add and edit categories and keywords directly in the interface.</li>
-      <li>Visualization of monthly spending and income evolution with interactive line charts.</li>
-      <li>Display of expenses by category as a pie chart.</li>
-      <li>Custom styled UI with CSS and Google Fonts.</li>
-      <li>Automatic saving of custom categories in a JSON file.</li>
-    </ul>
+<h2 style="color: #d4b9fc;">💡 Inspiration</h2>
+<p>This project is inspired by <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" target="_blank" style="color:#f0e9ff; text-decoration: underline;">Tech With Tim's tutorial</a> and the <a href="https://github.com/techwithtim/AutomateFinancesWithPython" target="_blank" style="color:#f0e9ff; text-decoration: underline;">AutomateFinancesWithPython</a> repository, adapted with new features and Romanian localization.</p>
 
-    <hr />
+---
 
-    <h2>Technologies Used</h2>
-    <ul>
-      <li><a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python 3.x</a></li>
-      <li><a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">Streamlit</a> — fast Python web app framework</li>
-      <li><a href="https://pandas.pydata.org/" target="_blank" rel="noopener noreferrer">Pandas</a> — data manipulation and analysis</li>
-      <li><a href="https://plotly.com/python/plotly-express/" target="_blank" rel="noopener noreferrer">Plotly Express</a> — interactive visualizations</li>
-      <li>JSON &amp; OS modules for local storage of categories</li>
-    </ul>
+<h2 style="color: #d4b9fc;">📄 License</h2>
+<p>This code is open source and free to use or modify. Please credit the original source if you use it in your projects.</p>
 
-    <hr />
+---
 
-    <h2>How to Use the App</h2>
-    <ol>
-      <li>
-        Clone this repository locally:<br />
-        <pre><code>git clone https://github.com/yourusername/personal-finance-app.git
-cd personal-finance-app</code></pre>
-      </li>
-      <li>
-        Install dependencies:<br />
-        <pre><code>pip install streamlit pandas plotly</code></pre>
-      </li>
-      <li>
-        Run the app:<br />
-        <pre><code>streamlit run app.py</code></pre>
-      </li>
-      <li>
-        Upload your bank transactions CSV file (make sure it includes: <code>Data</code>, <code>Detalii</code>, <code>Suma (RON)</code>, <code>Tip tranzacție</code> columns).
-      </li>
-      <li>Explore charts, edit categories, and monitor your expenses and income!</li>
-    </ol>
+<h2 style="color: #d4b9fc;">📫 Contact</h2>
+<p>For questions or feedback, contact me at: <a href="mailto:your.email@example.com" style="color:#f0e9ff;">your.email@example.com</a></p>
 
-    <hr />
-
-    <h2>Expected CSV File Structure</h2>
-    <table style="border-collapse: collapse; width: 100%;">
-      <thead>
-        <tr style="background-color: #6f57a1; color: #f0ebff;">
-          <th style="border: 1px solid #a28fed; padding: 0.5rem;">Data</th>
-          <th style="border: 1px solid #a28fed; padding: 0.5rem;">Detalii</th>
-          <th style="border: 1px solid #a28fed; padding: 0.5rem;">Suma (RON)</th>
-          <th style="border: 1px solid #a28fed; padding: 0.5rem;">Tip tranzacție</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr style="background-color: #7e6baa;">
-          <td style="border: 1px solid #a28fed; padding: 0.5rem;">01/07/2025</td>
-          <td style="border: 1px solid #a28fed; padding: 0.5rem;">Grocery Store</td>
-          <td style="border: 1px solid #a28fed; padding: 0.5rem;">150.00</td>
-          <td style="border: 1px solid #a28fed; padding: 0.5rem;">Debit</td>
-        </tr>
-        <tr style="background-color: #6f57a1;">
-          <td style="border: 1px solid #a28fed; padding: 0.5rem;">03/07/2025</td>
-          <td style="border: 1px solid #a28fed; padding: 0.5rem;">Salary</td>
-          <td style="border: 1px solid #a28fed; padding: 0.5rem;">5000.00</td>
-          <td style="border: 1px solid #a28fed; padding: 0.5rem;">Credit</td>
-        </tr>
-      </tbody>
-    </table>
-    <p>
-      <em>
-        - <code>Data</code> in day/month/year format.<br />
-        - <code>Detalii</code> describes the transaction (e.g., store, utilities).<br />
-        - <code>Suma (RON)</code> may contain dots as thousand separators and commas as decimals.<br />
-        - <code>Tip tranzacție</code> must be either <code>Debit</code> or <code>Credit</code>.
-      </em>
-    </p>
-
-    <hr />
-
-    <h2>Customizations &amp; Extensions</h2>
-    <ul>
-      <li>Add new categories and keywords in-app to improve auto-categorization.</li>
-      <li>Categories are saved locally in <code>category_of_expenses.json</code> to persist between sessions.</li>
-      <li>The UI is custom styled with CSS injected in Streamlit for a pleasant user experience.</li>
-      <li>Charts use Plotly for modern interactivity and appearance.</li>
-      <li>Code can be extended with PDF export, financial alerts, bank API integration, and more.</li>
-    </ul>
-
-    <hr />
-
-    <h2>Inspiration</h2>
-    <p>
-      This app is inspired by
-      <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" target="_blank" rel="noopener noreferrer">Tech With Tim’s tutorial</a> and his repo
-      <a href="https://github.com/techwithtim/AutomateFinancesWithPython" target="_blank" rel="noopener noreferrer">AutomateFinancesWithPython</a>,
-      adapted and extended with additional features and localization for Romanian language and UX.
-    </p>
-
-    <hr />
-
-    <h2>License</h2>
-    <p>
-      The code is open-source and free to use and modify.<br />
-      Please credit the original source if you use it in your projects.
-    </p>
-
-    <hr />
-
-    <h2>Contact</h2>
-    <p>
-      For questions or suggestions, reach me at: <a href="mailto:your.email@example.com">your.email@example.com</a><br />
-      Or open an issue in this repo.
-    </p>
-  </div>
-</body>
-</html>
+</div>

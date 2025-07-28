@@ -35,32 +35,46 @@ streamlit run app.py
 ---
 
 <h2 style="color: #d4b9fc;">📂 CSV File Format</h2>
-<p>Expected columns:</p>
+<p>The CSV file should contain the following columns:</p>
 
 <table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
   <thead>
     <tr style="background-color: #6c4fd8; color: white;">
-      <th style="padding: 8px; border: 1px solid #5c3db1;">Date</th>
-      <th style="padding: 8px; border: 1px solid #5c3db1;">Details</th>
-      <th style="padding: 8px; border: 1px solid #5c3db1;">Amount (RON)</th>
-      <th style="padding: 8px; border: 1px solid #5c3db1;">Transaction Type</th>
+      <th style="padding: 8px; border: 1px solid #5c3db1;">Data</th>
+      <th style="padding: 8px; border: 1px solid #5c3db1;">Detalii</th>
+      <th style="padding: 8px; border: 1px solid #5c3db1;">Suma (RON)</th>
+      <th style="padding: 8px; border: 1px solid #5c3db1;">Monedă</th>
+      <th style="padding: 8px; border: 1px solid #5c3db1;">Tip tranzacție</th>
+      <th style="padding: 8px; border: 1px solid #5c3db1;">Stare</th>
     </tr>
   </thead>
   <tbody>
     <tr style="background-color: #8c68f9; color: white;">
-      <td style="padding: 8px; border: 1px solid #5c3db1;">01/07/2025</td>
-      <td style="padding: 8px; border: 1px solid #5c3db1;">Grocery Store</td>
-      <td style="padding: 8px; border: 1px solid #5c3db1;">150.00</td>
-      <td style="padding: 8px; border: 1px solid #5c3db1;">Debit</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">28.02.2025</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">Încasare card</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">"18.551,62"</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">RON</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">Credit</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">Decontată</td>
     </tr>
     <tr style="background-color: #9a7efc; color: white;">
-      <td style="padding: 8px; border: 1px solid #5c3db1;">03/07/2025</td>
-      <td style="padding: 8px; border: 1px solid #5c3db1;">Salary</td>
-      <td style="padding: 8px; border: 1px solid #5c3db1;">5000.00</td>
-      <td style="padding: 8px; border: 1px solid #5c3db1;">Credit</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">15.02.2025</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">ASIGURARE EUROINS</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">"137,95"</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">RON</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">Debit</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">Decontată</td>
     </tr>
   </tbody>
 </table>
+
+<p><i>Notes:</i></p>
+<ul>
+  <li><b>Data:</b> format day.month.year (e.g., 28.02.2025)</li>
+  <li><b>Suma (RON):</b> decimal separator is comma, thousand separator is dot (e.g., "18.551,62")</li>
+  <li><b>Tip tranzacție:</b> must be either <code>Debit</code> or <code>Credit</code></li>
+  <li><b>Stare:</b> transaction status (e.g., Decontată)</li>
+</ul>
 
 ---
 
@@ -71,15 +85,5 @@ streamlit run app.py
 
 <h2 style="color: #d4b9fc;">💡 Inspiration</h2>
 <p>This project is inspired by <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" target="_blank" style="color:#f0e9ff; text-decoration: underline;">Tech With Tim's tutorial</a> and the <a href="https://github.com/techwithtim/AutomateFinancesWithPython" target="_blank" style="color:#f0e9ff; text-decoration: underline;">AutomateFinancesWithPython</a> repository, adapted with new features and Romanian localization.</p>
-
----
-
-<h2 style="color: #d4b9fc;">📄 License</h2>
-<p>This code is open source and free to use or modify. Please credit the original source if you use it in your projects.</p>
-
----
-
-<h2 style="color: #d4b9fc;">📫 Contact</h2>
-<p>For questions or feedback, contact me at: <a href="mailto:your.email@example.com" style="color:#f0e9ff;">your.email@example.com</a></p>
 
 </div>

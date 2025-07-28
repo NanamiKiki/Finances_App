@@ -25,7 +25,7 @@
 <h2 style="color: #d4b9fc;">🚀 Getting Started</h2>
 <pre style="background: #5c3db1; padding: 1rem; border-radius: 8px; overflow-x: auto;">
 <code style="color: #f0e9ff;">
-git clone https://github.com/yourusername/personal-finance-app.git
+
 cd personal-finance-app
 pip install streamlit pandas plotly
 streamlit run app.py

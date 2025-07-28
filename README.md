@@ -79,7 +79,7 @@ streamlit run app.py
 
 <h2 style="color: #d4b9fc;">⚙️ Usage</h2>
 <p>Upload your CSV file with transactions. The app will automatically clean and categorize your data. You can also add or edit categories and keywords to better fit your needs. Visualize your financial trends and get detailed breakdowns.</p>
----
+
 <h2 style="color: #d4b9fc;">⚙️ Customizations &amp; Extensions</h2>
 
 <ul>

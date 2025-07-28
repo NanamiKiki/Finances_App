@@ -8,7 +8,7 @@
 
 
 
-<h2 style="color: #e0c3fc;">✨ Features</h2>
+<h2 style="color: #e0c3fc;"> Features</h2>
 <ul>
   <li>Upload CSV files with Debit/Credit bank transactions</li>
   <li>Automatic data cleaning and preprocessing</li>
@@ -22,7 +22,7 @@
 
 
 
-<h2 style="color: #d4b9fc;">🚀 Getting Started</h2>
+<h2 style="color: #d4b9fc;"> Getting Started</h2>
 <pre style="background: #5c3db1; padding: 1rem; border-radius: 8px; overflow-x: auto;">
 <code style="color: #f0e9ff;">
 
@@ -33,7 +33,7 @@ streamlit run app.py
 
 
 
-<h2 style="color: #d4b9fc;">📂 CSV File Format</h2>
+<h2 style="color: #d4b9fc;"> CSV File Format</h2>
 <p>The CSV file should contain the following columns:</p>
 
 <table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
@@ -77,10 +77,10 @@ streamlit run app.py
 
 
 
-<h2 style="color: #d4b9fc;">⚙️ Usage</h2>
+<h2 style="color: #d4b9fc;"> Usage</h2>
 <p>Upload your CSV file with transactions. The app will automatically clean and categorize your data. You can also add or edit categories and keywords to better fit your needs. Visualize your financial trends and get detailed breakdowns.</p>
 
-<h2 style="color: #d4b9fc;">⚙️ Customizations &amp; Extensions</h2>
+<h2 style="color: #d4b9fc;"> Customizations &amp; Extensions</h2>
 
 <ul>
   <li><strong>Add new categories and keywords</strong> directly in-app to improve automatic transaction categorization.</li>
@@ -99,7 +99,7 @@ streamlit run app.py
 
 
 
-<h2 style="color: #d4b9fc;">💡 Inspiration</h2>
+<h2 style="color: #d4b9fc;"> Inspiration</h2>
 <p>This project is inspired by <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" target="_blank" style="color:#f0e9ff; text-decoration: underline;">Tech With Tim's tutorial</a> and the <a href="https://github.com/techwithtim/AutomateFinancesWithPython" target="_blank" style="color:#f0e9ff; text-decoration: underline;">AutomateFinancesWithPython</a> repository, adapted with new features and Romanian localization.</p>
 
 
@@ -112,7 +112,7 @@ Gestionează și vizualizează-ți finanțele personale simplu, folosind Python,
 
 ---
 
-<h2 style="color:#673ab7;">✨ Funcționalități</h2>
+<h2 style="color:#673ab7;"> Funcționalități</h2>
 <ul>
   <li>Încarcă fișiere CSV cu tranzacții bancare Debit/Credit</li>
   <li>Curățare și preprocesare automată a datelor</li>
@@ -126,7 +126,7 @@ Gestionează și vizualizează-ți finanțele personale simplu, folosind Python,
 
 ---
 
-<h2 style="color:#673ab7;">🚀 Pornire rapidă</h2>
+<h2 style="color:#673ab7;"> Pornire rapidă</h2>
 <pre style="background:#ede7f6; padding:10px; border-radius:6px;">
 <code>pip install streamlit pandas plotly
 streamlit run app.py
@@ -135,7 +135,7 @@ streamlit run app.py
 
 ---
 
-<h2 style="color:#673ab7;">📂 Formatul fișierului CSV</h2>
+<h2 style="color:#673ab7;"> Formatul fișierului CSV</h2>
 <p>Fișierul CSV trebuie să conțină următoarele coloane:</p>
 
 <table style="border-collapse: collapse; width: 100%; color:#4a148c;">
@@ -179,12 +179,12 @@ streamlit run app.py
 
 ---
 
-<h2 style="color:#673ab7;">⚙️ Utilizare</h2>
+<h2 style="color:#673ab7;"> Utilizare</h2>
 <p>Încarcă fișierul CSV cu tranzacții. Aplicația curăță și categorizează automat datele. Poți adăuga sau modifica categoriile și cuvintele cheie pentru o personalizare mai bună. Vizualizează tendințele financiare și analize detaliate.</p>
 
 ---
 
-<h2 style="color:#673ab7;">⚙️ Personalizări și Extensii</h2>
+<h2 style="color:#673ab7;"> Personalizări și Extensii</h2>
 <ul>
   <li>Adaugă categorii și cuvinte cheie direct în aplicație pentru o auto-categorizare mai precisă.</li>
   <li>Categoriile sunt salvate local în <code>category_of_expenses.json</code> pentru a păstra consistența între sesiuni.</li>
@@ -202,5 +202,5 @@ streamlit run app.py
 
 ---
 
-<h2 style="color:#673ab7;">💡 Inspirație</h2>
+<h2 style="color:#673ab7;"> Inspirație</h2>
 <p>Proiectul este inspirat de tutorialul <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" style="color:#9575cd;">Tech With Tim</a> și repository-ul <a href="https://github.com/techwithtim/AutomateFinancesWithPython/tree/main" style="color:#9575cd;">AutomateFinancesWithPython</a>, adaptat cu funcționalități noi și localizare în limba română.</p>

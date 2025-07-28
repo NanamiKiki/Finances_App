@@ -104,3 +104,103 @@ streamlit run app.py
 
 
 </div>
+<h1 style="color:#7e57c2;">Aplicație pentru Finanțe Personale cu Streamlit</h1>
+
+<p style="font-size:1.1em; color:#9575cd;">
+Gestionează și vizualizează-ți finanțele personale simplu, folosind Python, Streamlit și Plotly.
+</p>
+
+---
+
+<h2 style="color:#673ab7;">✨ Funcționalități</h2>
+<ul>
+  <li>Încarcă fișiere CSV cu tranzacții bancare Debit/Credit</li>
+  <li>Curățare și preprocesare automată a datelor</li>
+  <li>Auto-categorizare a cheltuielilor pe baza cuvintelor cheie</li>
+  <li>Adaugă și editează categorii și cuvinte cheie direct în aplicație</li>
+  <li>Grafice interactive lunare pentru cheltuieli și încasări cu Plotly</li>
+  <li>Diagramă tip <em>pie</em> pentru analiza cheltuielilor pe categorii</li>
+  <li>Interfață personalizată cu Google Fonts și stil CSS pe tema mov</li>
+  <li>Categoriile sunt salvate local în JSON pentru persistenta datelor</li>
+</ul>
+
+---
+
+<h2 style="color:#673ab7;">🚀 Pornire rapidă</h2>
+<pre style="background:#ede7f6; padding:10px; border-radius:6px;">
+<code>pip install streamlit pandas plotly
+streamlit run app.py
+</code>
+</pre>
+
+---
+
+<h2 style="color:#673ab7;">📂 Formatul fișierului CSV</h2>
+<p>Fișierul CSV trebuie să conțină următoarele coloane:</p>
+
+<table style="border-collapse: collapse; width: 100%; color:#4a148c;">
+  <thead style="background:#d1c4e9;">
+    <tr>
+      <th style="border: 1px solid #b39ddb; padding: 8px;">Data</th>
+      <th style="border: 1px solid #b39ddb; padding: 8px;">Detalii</th>
+      <th style="border: 1px solid #b39ddb; padding: 8px;">Suma (RON)</th>
+      <th style="border: 1px solid #b39ddb; padding: 8px;">Monedă</th>
+      <th style="border: 1px solid #b39ddb; padding: 8px;">Tip tranzacție</th>
+      <th style="border: 1px solid #b39ddb; padding: 8px;">Stare</th>
+    </tr>
+  </thead>
+  <tbody style="background:#ede7f6;">
+    <tr>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">28.02.2025</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">Încasare card</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">"18.551,62"</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">RON</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">Credit</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">Decontată</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">15.02.2025</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">ASIGURARE EUROINS</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">"137,95"</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">RON</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">Debit</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">Decontată</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Note:</strong></p>
+<ul>
+  <li><strong>Data:</strong> format zi.lună.an (ex: 28.02.2025)</li>
+  <li><strong>Suma (RON):</strong> separator zecimal virgulă, separator mii punct (ex: "18.551,62")</li>
+  <li><strong>Tip tranzacție:</strong> trebuie să fie <code>Debit</code> sau <code>Credit</code></li>
+  <li><strong>Stare:</strong> statusul tranzacției (ex: Decontată)</li>
+</ul>
+
+---
+
+<h2 style="color:#673ab7;">⚙️ Utilizare</h2>
+<p>Încarcă fișierul CSV cu tranzacții. Aplicația curăță și categorizează automat datele. Poți adăuga sau modifica categoriile și cuvintele cheie pentru o personalizare mai bună. Vizualizează tendințele financiare și analize detaliate.</p>
+
+---
+
+<h2 style="color:#673ab7;">⚙️ Personalizări și Extensii</h2>
+<ul>
+  <li>Adaugă categorii și cuvinte cheie direct în aplicație pentru o auto-categorizare mai precisă.</li>
+  <li>Categoriile sunt salvate local în <code>category_of_expenses.json</code> pentru a păstra consistența între sesiuni.</li>
+  <li>Interfața este personalizată cu CSS injectat în Streamlit, oferind o experiență vizuală plăcută cu temă mov.</li>
+  <li>Graficele interactive folosesc Plotly pentru vizualizări moderne și fluide ale datelor tale financiare.</li>
+  <li>Codul poate fi extins cu funcționalități precum:
+    <ul>
+      <li>Export PDF al rapoartelor</li>
+      <li>Alerte și notificări financiare</li>
+      <li>Integrare API bancar pentru descărcarea automată a tranzacțiilor</li>
+      <li>Și multe altele!</li>
+    </ul>
+  </li>
+</ul>
+
+---
+
+<h2 style="color:#673ab7;">💡 Inspirație</h2>
+<p>Proiectul este inspirat de tutorialul <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" style="color:#9575cd;">Tech With Tim</a> și repository-ul <a href="https://github.com/techwithtim/AutomateFinancesWithPython/tree/main" style="color:#9575cd;">AutomateFinancesWithPython</a>, adaptat cu funcționalități noi și localizare în limba română.</p>

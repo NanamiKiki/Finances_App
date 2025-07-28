@@ -1,6 +1,6 @@
 <div style="background: linear-gradient(135deg, #7b2ff7, #f107a3); padding: 2rem; border-radius: 10px; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
 
-<h1 style="text-align:center; font-weight: 700; margin-bottom: 0.2rem;">Personal Finance App with Streamlit</h1>
+<h1 style="text-align:center; font-weight: 700; margin-bottom: 0.2rem;">EG-Personal Finance App with Streamlit</h1>
 
 <p style="text-align:center; font-style: italic; margin-top: 0; margin-bottom: 2rem;">
   Manage and visualize your personal finances easily with Python, Streamlit, and Plotly.
@@ -104,7 +104,7 @@ streamlit run app.py
 
 
 </div>
-<h1 style="color:#7e57c2;">Aplicație pentru Finanțe Personale cu Streamlit</h1>
+<h1 style="color:#7e57c2;">RO-Aplicație pentru Finanțe Personale cu Streamlit</h1>
 
 <p style="font-size:1.1em; color:#9575cd;">
 Gestionează și vizualizează-ți finanțele personale simplu, folosind Python, Streamlit și Plotly.
@@ -160,7 +160,7 @@ streamlit run app.py
     </tr>
     <tr>
       <td style="border: 1px solid #b39ddb; padding: 8px;">15.02.2025</td>
-      <td style="border: 1px solid #b39ddb; padding: 8px;">ASIGURARE EUROINS</td>
+      <td style="border: 1px solid #b39ddb; padding: 8px;">COMISIONN BANCAR</td>
       <td style="border: 1px solid #b39ddb; padding: 8px;">"137,95"</td>
       <td style="border: 1px solid #b39ddb; padding: 8px;">RON</td>
       <td style="border: 1px solid #b39ddb; padding: 8px;">Debit</td>

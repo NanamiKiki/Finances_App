@@ -6,7 +6,7 @@
   Manage and visualize your personal finances easily with Python, Streamlit, and Plotly.
 </p>
 
----
+
 
 <h2 style="color: #e0c3fc;">✨ Features</h2>
 <ul>
@@ -20,7 +20,7 @@
   <li>Categories saved locally in JSON for persistence</li>
 </ul>
 
----
+
 
 <h2 style="color: #d4b9fc;">🚀 Getting Started</h2>
 <pre style="background: #5c3db1; padding: 1rem; border-radius: 8px; overflow-x: auto;">
@@ -31,7 +31,7 @@ streamlit run app.py
 </code>
 </pre>
 
----
+
 
 <h2 style="color: #d4b9fc;">📂 CSV File Format</h2>
 <p>The CSV file should contain the following columns:</p>
@@ -75,7 +75,7 @@ streamlit run app.py
   <li><b>Stare:</b> transaction status (e.g., Decontată)</li>
 </ul>
 
----
+
 
 <h2 style="color: #d4b9fc;">⚙️ Usage</h2>
 <p>Upload your CSV file with transactions. The app will automatically clean and categorize your data. You can also add or edit categories and keywords to better fit your needs. Visualize your financial trends and get detailed breakdowns.</p>
@@ -97,10 +97,10 @@ streamlit run app.py
   </li>
 </ul>
 
----
+
 
 <h2 style="color: #d4b9fc;">💡 Inspiration</h2>
 <p>This project is inspired by <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" target="_blank" style="color:#f0e9ff; text-decoration: underline;">Tech With Tim's tutorial</a> and the <a href="https://github.com/techwithtim/AutomateFinancesWithPython" target="_blank" style="color:#f0e9ff; text-decoration: underline;">AutomateFinancesWithPython</a> repository, adapted with new features and Romanian localization.</p>
----
+
 
 </div>

@@ -1,6 +1,6 @@
 <div style="background: linear-gradient(135deg, #7b2ff7, #f107a3); padding: 2rem; border-radius: 10px; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
 
-<h1 style="text-align:center; font-weight: 700; margin-bottom: 0.2rem;">EG-Personal Finance App with Streamlit</h1>
+<h1 style="text-align:center; font-weight: 700; margin-bottom: 0.2rem;">EN-Personal Finance App with Streamlit</h1>
 
 <p style="text-align:center; font-style: italic; margin-top: 0; margin-bottom: 2rem;">
   Manage and visualize your personal finances easily with Python, Streamlit, and Plotly.

@@ -79,10 +79,28 @@ streamlit run app.py
 
 <h2 style="color: #d4b9fc;">⚙️ Usage</h2>
 <p>Upload your CSV file with transactions. The app will automatically clean and categorize your data. You can also add or edit categories and keywords to better fit your needs. Visualize your financial trends and get detailed breakdowns.</p>
+---
+<h2 style="color: #d4b9fc;">⚙️ Customizations &amp; Extensions</h2>
+
+<ul>
+  <li><strong>Add new categories and keywords</strong> directly in-app to improve automatic transaction categorization.</li>
+  <li>Categories are saved locally in <code>category_of_expenses.json</code> to <em>persist</em> between sessions and keep your data consistent.</li>
+  <li>The UI is <strong>custom styled</strong> with injected CSS in Streamlit, providing a clean and visually pleasing experience with a purple-themed design.</li>
+  <li>Interactive charts use <strong>Plotly</strong> to deliver smooth and modern visualizations for your financial data.</li>
+  <li>The codebase is easily extendable with features like:
+    <ul>
+      <li>PDF export of reports</li>
+      <li>Financial alerts and notifications</li>
+      <li>Bank API integrations for automatic transaction fetching</li>
+      <li>And much more!</li>
+    </ul>
+  </li>
+</ul>
 
 ---
 
 <h2 style="color: #d4b9fc;">💡 Inspiration</h2>
 <p>This project is inspired by <a href="https://www.youtube.com/watch?v=wqBlmAWqa6A" target="_blank" style="color:#f0e9ff; text-decoration: underline;">Tech With Tim's tutorial</a> and the <a href="https://github.com/techwithtim/AutomateFinancesWithPython" target="_blank" style="color:#f0e9ff; text-decoration: underline;">AutomateFinancesWithPython</a> repository, adapted with new features and Romanian localization.</p>
+---
 
 </div>

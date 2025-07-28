@@ -20,34 +20,7 @@
   <li>Categories saved locally in JSON for persistence</li>
 </ul>
 
-<!-- Galerie de imagini cu săgeți -->
-<h2 style="color: #d4b9fc;">Galerie de capturi de ecran</h2>
 
-<div align="center" style="position: relative; width: 100%; max-width: 600px; margin: auto;">
-  <a href="#img2">
-    <img src="images/screenshot1.png" alt="Screenshot 1" style="width:100%; border-radius: 10px;" />
-  </a>
-  <div style="position: absolute; top: 50%; left: 0;">
-    <a href="#img2" style="font-size: 2rem; text-decoration: none; color: white;">⬅️</a>
-  </div>
-  <div style="position: absolute; top: 50%; right: 0;">
-    <a href="#img2" style="font-size: 2rem; text-decoration: none; color: white;">➡️</a>
-  </div>
-</div>
-
-<a name="img2"></a>
-<div align="center" style="position: relative; width: 100%; max-width: 600px; margin: auto; margin-top: 2rem;">
-  <a href="#img1">
-    <img src="images/screenshot2.png" alt="Screenshot 2" style="width:100%; border-radius: 10px;" />
-  </a>
-  <div style="position: absolute; top: 50%; left: 0;">
-    <a href="#img1" style="font-size: 2rem; text-decoration: none; color: white;">⬅️</a>
-  </div>
-  <div style="position: absolute; top: 50%; right: 0;">
-    <a href="#img1" style="font-size: 2rem; text-decoration: none; color: white;">➡️</a>
-  </div>
-</div>
-<a name="img1"></a>
 
 <h2 style="color: #d4b9fc;"> Getting Started</h2>
 <pre style="background: #5c3db1; padding: 1rem; border-radius: 8px; overflow-x: auto;">

@@ -158,7 +158,7 @@ Gestionează și vizualizează-ți finanțele personale simplu, folosind Python,
   <li>Adaugă și editează categorii și cuvinte cheie direct în aplicație</li>
   <li>Grafice interactive lunare pentru cheltuieli și încasări cu Plotly</li>
   <li>Diagramă tip <em>pie</em> pentru analiza cheltuielilor pe categorii</li>
-  <li>Interfață personalizată cu Google Fonts și stil CSS pe tema mov</li>
+  <li>Interfață personalizată cu Google Fonts și CSS</li>
   <li>Categoriile sunt salvate local în JSON pentru persistenta datelor</li>
 </ul>
 

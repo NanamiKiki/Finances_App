@@ -58,7 +58,7 @@ streamlit run app.py
     </tr>
     <tr style="background-color: #9a7efc; color: white;">
       <td style="padding: 8px; border: 1px solid #5c3db1;">15.02.2025</td>
-      <td style="padding: 8px; border: 1px solid #5c3db1;">ASIGURARE EUROINS</td>
+      <td style="padding: 8px; border: 1px solid #5c3db1;">COMISION BANCAR</td>
       <td style="padding: 8px; border: 1px solid #5c3db1;">"137,95"</td>
       <td style="padding: 8px; border: 1px solid #5c3db1;">RON</td>
       <td style="padding: 8px; border: 1px solid #5c3db1;">Debit</td>

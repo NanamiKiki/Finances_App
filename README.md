@@ -16,7 +16,7 @@
   <li>Add and edit categories and keywords in-app</li>
   <li>Interactive monthly spending and income charts with Plotly</li>
   <li>Pie chart showing expenses breakdown by category</li>
-  <li>Custom styled UI with Google Fonts and purple-themed CSS</li>
+  <li>Custom styled UI with Google Fonts and CSS</li>
   <li>Categories saved locally in JSON for persistence</li>
 </ul>
 

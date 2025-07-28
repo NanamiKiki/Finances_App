@@ -20,7 +20,42 @@
   <li>Categories saved locally in JSON for persistence</li>
 </ul>
 
+<h2 style="color: #d4b9fc;">📸 Galerie de capturi de ecran</h2>
 
+<!-- Imagine 1 -->
+<a name="img1"></a>
+<div align="center" style="position: relative; max-width: 700px; margin: auto;">
+  <img src="Screenshot1.png" alt="Screenshot 1" style="width:100%; border-radius: 10px;" />
+  <div style="margin-top: 10px;">
+    ➡️ <a href="#img2">Următoarea imagine</a>
+  </div>
+</div>
+
+<!-- Imagine 2 -->
+<a name="img2"></a>
+<div align="center" style="position: relative; max-width: 700px; margin: auto; margin-top: 2rem;">
+  <img src="Screenshot2.png" alt="Screenshot 2" style="width:100%; border-radius: 10px;" />
+  <div style="margin-top: 10px;">
+    ⬅️ <a href="#img1">Înapoi</a> | <a href="#img3">Următoarea ➡️</a>
+  </div>
+</div>
+
+<!-- Imagine 3 -->
+<a name="img3"></a>
+<div align="center" style="position: relative; max-width: 700px; margin: auto; margin-top: 2rem;">
+  <img src="Screenshot3.png" alt="Screenshot 3" style="width:100%; border-radius: 10px;" />
+  <div style="margin-top: 10px;">
+    ⬅️ <a href="#img2">Înapoi</a> | <a href="#img4">Următoarea ➡️</a>
+  </div>
+</div>
+
+<!-- Imagine 4 -->
+<a name="img4"></a>
+<div align="center" style="position: relative; max-width: 700px; margin: auto; margin-top: 2rem;">
+  <img src="Screenshot4.png" alt="Screenshot 4" style="width:100%; border-radius: 10px;" />
+  <div style="margin-top: 10px;">
+    ⬅️ <a href="#img3">Înapoi</a>
+  </div>
 
 <h2 style="color: #d4b9fc;"> Getting Started</h2>
 <pre style="background: #5c3db1; padding: 1rem; border-radius: 8px; overflow-x: auto;">

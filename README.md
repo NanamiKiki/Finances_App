@@ -84,7 +84,7 @@ streamlit run app.py
 <ul>
   <li><strong>Add new categories and keywords</strong> directly in-app to improve automatic transaction categorization.</li>
   <li>Categories are saved locally in <code>category_of_expenses.json</code> to <em>persist</em> between sessions and keep your data consistent.</li>
-  <li>The UI is <strong>custom styled</strong> with injected CSS in Streamlit, providing a clean and visually pleasing experience with a purple-themed design.</li>
+  <li>The UI is <strong>custom styled</strong> with injected CSS in Streamlit, providing a clean and visually pleasing experience themed design.</li>
   <li>Interactive charts use <strong>Plotly</strong> to deliver smooth and modern visualizations for your financial data.</li>
   <li>The codebase is easily extendable with features like:
     <ul>
@@ -226,7 +226,7 @@ streamlit run app.py
 <ul>
   <li>Adaugă categorii și cuvinte cheie direct în aplicație pentru o auto-categorizare mai precisă.</li>
   <li>Categoriile sunt salvate local în <code>category_of_expenses.json</code> pentru a păstra consistența între sesiuni.</li>
-  <li>Interfața este personalizată cu CSS injectat în Streamlit, oferind o experiență vizuală plăcută cu temă mov.</li>
+  <li>Interfața este personalizată cu CSS injectat în Streamlit, oferind o experiență vizuală plăcută.</li>
   <li>Graficele interactive folosesc Plotly pentru vizualizări moderne și fluide ale datelor tale financiare.</li>
   <li>Codul poate fi extins cu funcționalități precum:
     <ul>
